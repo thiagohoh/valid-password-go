@@ -12,4 +12,5 @@ func main() {
 	v1 := r.Group("/api")
 	pswdvalidation.ValidadePassword(v1)
 	r.Run()
+
 }
